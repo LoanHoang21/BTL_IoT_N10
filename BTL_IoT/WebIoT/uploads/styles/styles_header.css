@@ -1,0 +1,118 @@
+#myCarousel {
+    margin-top: 57px;
+    z-index: 0;
+}
+
+.navbar {
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1001;
+}
+
+.nav-link:hover {
+    background: red;
+    color: white;
+}
+
+.nav-link {
+    color: white;
+}
+
+.dropdown-menu {
+    z-index: 1002;
+}
+
+.dropdown-item:hover {
+    background-color: black;
+    color: white;
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+    background-color: red;
+    color: white;
+}
+
+.contents {
+    margin-left: 48px;
+    margin-right: 48px;
+    text-align: justify;
+}
+
+.col-sm-3 {
+    padding: 24px;
+    color: white;
+}
+
+.mycontainer {
+    margin-left: 48px;
+    margin-right: 48px;
+}
+
+h3 {
+    padding-top: 40px;
+}
+
+.col-sm-4:hover .boder {
+    border: 1.5px solid rgb(141, 17, 17);
+    border-radius: 4px;
+}
+
+.question p {
+    border: 1.5px solid rgb(174, 169, 169);
+    border-radius: 4px;
+    box-shadow: 2px;
+    padding: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.question p:hover {
+    background-color: rgb(141, 17, 17);
+    color: white;
+}
+
+.no-hover:hover {
+    background: none !important;
+    color: inherit !important;
+}
+
+.form-control {
+    border: 1px solid black;
+}
+
+.sidebar {
+    position: sticky;
+    top: 0px;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    padding-top: 40px;
+}
+
+.sidebar .nav-item {
+    margin-bottom: 8px;
+}
+
+.sidebar .nav-link {
+    color: white;
+    padding-left: 50px
+}
+
+.sidebar .nav-item.active {
+    background-color: red;
+    color: white;
+}
+
+/* Đặt hiệu ứng khi hover vào ảnh */
+.image-hover-zoom {
+    transition: transform 0.3s ease;
+    /* Thời gian và kiểu chuyển tiếp */
+}
+
+.image-hover-zoom:hover {
+    transform: scale(1.1);
+    /* Phóng to lên 1.1 lần */
+}
